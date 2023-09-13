@@ -1,0 +1,30 @@
+body {
+    font: "Raleway", sans-seriff;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    top: 15%;
+    letter-spacing: .5em;
+    background: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+    font: 600 3.5em "Raleway", sans-seriff;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    width: 100%;
+}
+
+.random {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #88CC88;
+    font-weight: bold;
+}
+
+.random:hover {
+    color: #fff;
+}
