@@ -1,0 +1,161 @@
+h2 {
+    color: red;
+}
+
+.navbar {
+    background: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Header-Home {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Img/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -87px;
+}
+
+.Text-Home  {
+ padding: 25%;
+    text-align: center;
+    color: white;
+}
+.Text-Home h1{
+font-size: 100px;
+font-weight: 800;
+letter-spacing: 2px;
+}
+.info-Home{
+    margin-top: 50px;
+    width: 50%;
+    text-align:left;
+    margin-left: 25%;
+}
+.info-Home a{
+text-decoration: none;
+color: black;
+font-weight: 700;
+}
+.info-Home a:hover{
+color: #0085A1;
+}
+/* about-page */
+.Header-About{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Img/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -87px;
+}
+.Text-About{
+    padding: 25%;
+    text-align: center;
+    color: white;
+}
+.Text-About h1{
+   font-size: 100px;
+   font-weight: 600;
+}
+.info-About{
+    margin-top: 50px;
+    width: 50%;
+    text-align:left;
+    margin-left: 25%;
+}
+.info-About p{
+   font-size: 20px;
+}
+
+/* post sample */
+.header-sample{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Img/post-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -87px;
+}
+.text-sample{
+    padding: 25%;
+    text-align: center;
+    color: white;
+}
+.text-sample h1{
+ font-size: 45px;
+ font-weight: 700;
+}
+.info-sample{
+    margin-top: 50px;
+    width: 50%;
+    text-align:left;
+    margin-left: 25%;
+}
+.info-sample p{
+    font-size: 20px;
+}
+
+/* contact */
+.header-contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Img/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -87px;
+}
+.Text-contact{
+    padding: 25%;
+    text-align: center;
+    color: white;
+}
+.Text-contact h1{
+   font-size: 100px;
+   font-weight: 800;
+}
+.info-contact{
+    margin-top: 50px;
+    width: 50%;
+    text-align:left;
+    margin-left: 25%;
+}
+.info-contact p{
+ font-size: 25px;
+
+}
+.form input{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+   font-size: 25px;
+   border: none;
+   border-bottom: 1px solid #0085A1;
+}
+.form textarea{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+   font-size: 25px;
+   border: none;
+   border-bottom: 1px solid #0085A1;
+   opacity: .5;
+}
+.form button{
+    margin-top: 30px;
+    border: none;
+    background: #0085A1;
+    font-size: 25px;
+    padding: 20px 30px;
+    color: white;
+    font-weight: 500;
+}
+footer{
+    text-align: center;
+}
