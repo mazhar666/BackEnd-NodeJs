@@ -1,0 +1,36 @@
+<section class="container">
+    <h1>Contact Us</h1>
+    <p>If you have any questions or feedback, please feel free to get in touch with us.</p>
+</section>
+
+<section class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Contact Form</h2>
+            <form method="post" action="/contact">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> info@yourtodolist.com</p>
+            <!-- Add other contact information as needed -->
+        </div>
+    </div>
+</section>
